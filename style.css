@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: #FFC017;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+}
+nav img {
+    width: 13%;
+}
+
+
+nav .links {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+nav .links ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+    color: black;
+    font-size: 14px;
+}
+nav button {
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-radius: 80px;
+    margin-left: 50px;
+}
+
+
+/* hero-section */
+.main1 ,.content1{
+    height: 80vh;
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+}
+.main1 .content1-1{
+    padding: 50px 120px;
+}
+.main1 .content1-1 h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+font-weight: 100;
+    margin-top: 50px;
+}
+.content1-1 p{
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+margin-top: 30px;
+font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+    padding: 5px 50px;
+background-color: #080808;
+}
+
+
+
+/* main2 */
+
+.content2 {
+    display: flex;
+    padding: 2em 0em 0em 7em;
+}
+
+.main2 .content2 i{
+    font-size: 24px;
+}
+.main2 .content2 h4{
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.main2 .content2-1{
+    height: 50vh;
+    padding: 50px 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+
+
+
+.box{
+    margin: 15px;
+}
+.numbers h3{
+    font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(199, 198, 198);
+}
+
+.numbers {display: flex;}
+
+.numbers img {
+    height: 23px;
+    margin: 7px;
+    border-radius: 25px;
+}
+.numbers h4 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.text h4 {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* last-section */
+.main3{
+    width: 110%;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    padding-left: 120px;
+    display: flex;
+   
+}
+
+
+.main3-1{
+    width: 55%;
+    margin-right: 70px;
+}
+.main3 .content3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.main3 .content3-1{
+    width: 60%;
+}
+.main3.text-1 .image1{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.image1 img {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.image1 {
+    align-items: center;
+    display: flex;
+}
+
+.image1 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 10px;
+} 
+.content3-1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.911);
+}
+.content3-1 p{
+    color: gray;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last{
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+ 
+}
+.last h5{
+
+    font-size: 12px;
+    color: gray;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-2{
+    /* margin-left: 20px; */
+    border: none;
+    padding: 4px 25px;
+    border-radius: 10px;
+    color: gray;
+}
+.last i{
+    margin-left: 100px;
+}
+.image-1 img{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+
+
+.main3.last-links{
+    width: 50%;
+    /* position: sticky; */
+    top: 120px;
+    background-color: #fff;
+    margin-left: 60px;
+}
+ 
+
+.main4 h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px;
+    background: white;
+    border: 1px solid #80808069;
+    margin: 4px;
+    border-radius: 5px;
+    color: grayt;
+    color: gray;}
+    li {
+        list-style: none;
+        margin: 8px;
+        display: flex;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+    .line {
+        margin: 20px 0px 20px 0px ;
+        width: 100%;
+        background: rgba(128, 128, 128, 0.543);
+        height: 1px;
+    }
+    ul.footer {
+        display: flex;
+    }
+
+
+
